@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./Addiko Bank AG - Career Opportunities _ TalentLyft_files/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="Addiko Bank AG - Career Opportunities _ TalentLyft_files/bootstrap.min.css">
+
+    <link href="css/index.min.css" rel="stylesheet">
+
+
+
+    <style>
+        
+    .slider {
+      width: 400px;
+      margin: 20px auto;
+      text-align: center;
+      padding: 20px;
+      color: white;
+      .parent-slide {
+        padding: 15px;
+      }
+      img {
+        display: block;
+        margin: auto;
+      }
+    }
+    
+    </style>
+</head>
+    <div class="slider">
+        <div class="slide">
+          <img src="http://fillmurray.com/300/300" alt="" class="img-responsive" />
+          <h1>slide 1</h1>
+        </div>
+        <div class="slide">
+          <img src="http://fillmurray.com/300/300" alt="" class="img-responsive" />
+          <h1>slide 2</h1>
+        </div>
+        <div class="slide">
+          <img src="http://fillmurray.com/300/300" alt="" class="img-responsive" />
+          <h1>slide 3</h1>
+        </div>
+        <div class="slide">
+          <img src="http://fillmurray.com/300/300" alt="" class="img-responsive" />
+          <h1>slide 4</h1>
+        </div>
+        <div class="slide">
+          <img src="http://fillmurray.com/300/300" alt="" class="img-responsive" />
+          <h1>slide 5</h1>
+        </div>
+      </div>
+    
+    <script>
+        window.onload=function(){
+            $('.slider').slick({
+                autoplay:true,
+                autoplaySpeed:1500,
+                arrows:false,
+                prevArrow:'<button type="button" class="slick-prev"></button>',
+                nextArrow:'<button type="button" class="slick-next"></button>',
+                centerMode:true,
+                slidesToShow:2,
+                slidesToScroll:1
+            });
+        };
+    </script>
+
+
+    
+
+
+<script
+src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script src="./Addiko Bank AG - Career Opportunities _ TalentLyft_files/index.min.js"></script>
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+
+<script src="js/slick.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.thing').slick({
+            dots: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 5000
+        });
+    });
+
+</script>
+</body>
+</html>
